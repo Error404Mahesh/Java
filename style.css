@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: top 50px; 
+}
+h1{
+    color: #444;
+
+}
+#todo-form{
+    margin-bottom: 20px;
+
+}
+todo-list{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.todo-item.completed{
+    text-decoration: line-through;
+    color:#aaa;
+
+}
